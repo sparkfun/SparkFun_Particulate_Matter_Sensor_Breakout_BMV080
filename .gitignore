@@ -13,9 +13,6 @@ fp-info-cache
 _autosave*
 \#auto_saved_files\#
 
-#FreeCad Backup files
-*.FCBak
-
 #Eagle Backup files
 *.s#?
 *.b#?
