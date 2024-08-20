@@ -1909,7 +1909,7 @@
 				)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "2.2uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "56759ff5-9b5f-44a4-8e72-aa57a3ed4e58")
@@ -1960,7 +1960,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-14969"
+		(property "PROD_ID" "CAP-14232"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1973,7 +1973,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "10V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2000,7 +2000,7 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87670c5b-b89b-4fd6-82cc-c93184187aec")
+		(path "/42c91b66-a1d2-4ec1-a910-e4d6bdba1617")
 		(sheetname "Root")
 		(sheetfile "SparkFun_BMV080.kicad_sch")
 		(attr smd)
@@ -3996,7 +3996,7 @@
 				)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "2.2uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "ae82d9cf-3a48-4f54-9ede-203d3030d144")
@@ -4047,7 +4047,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-14969"
+		(property "PROD_ID" "CAP-14232"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4060,7 +4060,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "10V"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4087,7 +4087,7 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/064fefb1-e7d8-41b9-8908-a8289704e2a5")
+		(path "/d4346900-cfe8-4665-8b33-a8542e842a48")
 		(sheetname "Root")
 		(sheetfile "SparkFun_BMV080.kicad_sch")
 		(attr smd)
@@ -4337,7 +4337,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "2.2uF"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "1961cf6a-b187-489a-a7fd-9b9282bd620e")
@@ -4392,7 +4392,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "CAP-14969"
+		(property "PROD_ID" "CAP-14232"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4406,7 +4406,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "10V"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4435,7 +4435,7 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/2bd38b3b-1144-47aa-9a0e-30df7a563220")
+		(path "/cc3288ea-99ea-471d-824f-1ac6c5fe06b3")
 		(sheetname "Root")
 		(sheetfile "SparkFun_BMV080.kicad_sch")
 		(attr smd)
@@ -7877,7 +7877,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "2.2uF"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "7fcd8aed-037c-4f23-bbdc-02a6fa479333")
@@ -7932,7 +7932,7 @@
 				(justify mirror)
 			)
 		)
-		(property "PROD_ID" "CAP-14969"
+		(property "PROD_ID" "CAP-14232"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7946,7 +7946,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "10V"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7975,7 +7975,7 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/572ce660-5e16-4902-85a4-fc4175da65bd")
+		(path "/17d3003d-2970-451e-8031-0e795df00fdc")
 		(sheetname "Root")
 		(sheetfile "SparkFun_BMV080.kicad_sch")
 		(attr smd)
