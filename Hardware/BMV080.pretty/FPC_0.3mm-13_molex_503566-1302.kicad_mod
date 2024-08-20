@@ -288,7 +288,7 @@
 		(uuid "95d9e089-eafa-42b9-9590-34ff0039a23f")
 	)
 	(pad "M1" smd roundrect
-		(at -2.52 1.2)
+		(at -2.51 1.2)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.15)
@@ -296,7 +296,7 @@
 		(uuid "f3946c8f-646a-4f69-9e2c-f4412a44a8f7")
 	)
 	(pad "M1" smd roundrect
-		(at 2.52 1.2)
+		(at 2.51 1.2)
 		(size 0.3 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.15)
