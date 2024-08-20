@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BMV080:FPC_0.3mm-13_molex_503566-1302"
 			(at -1.27 1.27 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-"
+		(property "PROD_ID" "IC-22926"
 			(at -3.302 -13.716 0)
 			(effects
 				(font

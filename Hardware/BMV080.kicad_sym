@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "NDA"
 			(at -1.27 1.27 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-"
+		(property "PROD_ID" "IC-22926"
 			(at -3.302 -13.716 0)
 			(effects
 				(font

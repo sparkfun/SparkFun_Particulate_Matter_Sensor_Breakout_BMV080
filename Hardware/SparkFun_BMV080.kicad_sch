@@ -41,7 +41,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "NDA"
 				(at -1.27 1.27 0)
 				(effects
 					(font
@@ -59,7 +59,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "IC-"
+			(property "PROD_ID" "IC-22926"
 				(at -3.302 -13.716 0)
 				(effects
 					(font
@@ -2668,7 +2668,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Jumper:SolderJumper_3_Bridged12"
+		(symbol "SparkFun-Jumper:SolderJumper_3_Bridged123_No_Silk"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -2691,264 +2691,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SparkFun-Jumper:SolderJumper_3_Bridged123"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "~"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-2_Trace"
+			(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-2_Trace_NoSilk"
 				(at 0.254 -6.35 0)
 				(effects
 					(font
@@ -2993,7 +2736,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_3_Bridged123_0_1"
+			(symbol "SolderJumper_3_Bridged123_No_Silk_0_1"
 				(rectangle
 					(start -1.016 0.508)
 					(end -0.508 -0.508)
@@ -3136,7 +2879,264 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_3_Bridged123_1_1"
+			(symbol "SolderJumper_3_Bridged123_No_Silk_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SparkFun-Jumper:SolderJumper_3_Bridged12_No_Silk"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace_NoSilk"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_No_Silk_0_1"
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_No_Silk_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -5550,80 +5550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged12")
-		(at 67.31 91.44 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "211e690c-2142-4609-93eb-0a7c535ce185")
-		(property "Reference" "JP1"
-			(at 64.77 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MODE"
-			(at 64.77 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace"
-			(at 72.39 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 77.47 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2bb9d0c3-b3a0-4594-b452-6a8f7773e58f")
-		)
-		(pin "1"
-			(uuid "ae46e43a-2258-4636-b3c0-a282a1b199eb")
-		)
-		(pin "2"
-			(uuid "06fde51e-115c-4dbe-93f4-1108964a232b")
-		)
-		(instances
-			(project "SparkFun_BMV080"
-				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 80.01 144.78 0)
 		(unit 1)
@@ -6071,6 +5997,79 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged12_No_Silk")
+		(at 135.89 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c510803-f5d7-44ff-a8c9-2192597566b2")
+		(property "Reference" "JP2"
+			(at 138.43 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AB0"
+			(at 138.43 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace_NoSilk"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 125.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a42a77c-207b-4233-9956-6e75edad8369")
+		)
+		(pin "3"
+			(uuid "666bc807-f350-4235-bebe-b3e92964ea2a")
+		)
+		(pin "1"
+			(uuid "2a6f3949-d897-472a-800e-9076922b3585")
+		)
+		(instances
+			(project ""
+				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Hardware:Standoff")
 		(at 265.43 175.26 0)
 		(unit 1)
@@ -6497,79 +6496,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged12")
-		(at 156.21 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7782369c-e40c-4d4a-bff4-872933c3b247")
-		(property "Reference" "JP3"
-			(at 158.75 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AB1"
-			(at 158.75 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace"
-			(at 151.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 146.05 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a1ed2edf-af5e-4326-993e-3d35f7d46dd5")
-		)
-		(pin "1"
-			(uuid "14f560fd-22c2-494a-88ea-12b19ad48dd7")
-		)
-		(pin "2"
-			(uuid "2a036cfb-fc54-42ad-9a46-a334c5e58842")
-		)
-		(instances
-			(project "SparkFun_BMV080"
-				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 66.04 144.78 0)
 		(unit 1)
@@ -6829,7 +6755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "NDA"
 			(at 93.98 87.63 0)
 			(effects
 				(font
@@ -6847,7 +6773,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-"
+		(property "PROD_ID" "IC-22926"
 			(at 91.948 102.616 0)
 			(effects
 				(font
@@ -7337,77 +7263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged123")
-		(at 215.9 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd3e8abf-cf3f-431e-bccb-3609e45a6a5c")
-		(property "Reference" "JP4"
-			(at 215.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2C"
-			(at 215.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-2_Trace"
-			(at 215.646 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 3-pole, pins 1+2+3 closed/bridged"
-			(at 215.9 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "22b4b18c-6ca3-48d2-bbdc-d86f4c81be7b")
-		)
-		(pin "2"
-			(uuid "915b23d9-5893-4466-9ca0-aec27f666229")
-		)
-		(pin "1"
-			(uuid "8f4846f4-73fc-4c78-a95d-edd46fbb5a21")
-		)
-		(instances
-			(project ""
-				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 135.89 72.39 0)
 		(unit 1)
@@ -7469,79 +7324,6 @@
 			(project "SparkFun_BMV080"
 				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged12")
-		(at 135.89 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c11359a3-8af2-4b2c-9f91-58709e408447")
-		(property "Reference" "JP2"
-			(at 138.43 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AB0"
-			(at 138.43 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace"
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 125.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8b44750e-fefa-414b-b6d2-b135bd8136f6")
-		)
-		(pin "1"
-			(uuid "026d9196-c624-4106-9c26-2a6dd3c6ea4d")
-		)
-		(pin "2"
-			(uuid "00d79f14-cee8-4ab2-9d98-d9d7382fb7b3")
-		)
-		(instances
-			(project ""
-				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -7621,6 +7403,79 @@
 			(project "SparkFun_BMV080"
 				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged12_No_Silk")
+		(at 156.21 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4039155-c9eb-426d-b8d7-41411f8816a1")
+		(property "Reference" "JP3"
+			(at 158.75 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AB1"
+			(at 158.75 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace_NoSilk"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 146.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b78f8757-1810-4b3a-bf36-aa8ef8dfe975")
+		)
+		(pin "1"
+			(uuid "f83ad265-801a-48b8-a83e-f7f455ef1321")
+		)
+		(pin "3"
+			(uuid "d4fbeabb-6f6a-4a37-b026-05e561d64579")
+		)
+		(instances
+			(project ""
+				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -8561,6 +8416,80 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged12_No_Silk")
+		(at 67.31 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb46bd42-270a-4ffa-8a08-29bfdc38e6bc")
+		(property "Reference" "JP1"
+			(at 64.77 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MODE"
+			(at 64.77 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-1_Trace_NoSilk"
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1ed542a-05aa-406b-ae4e-5ff6ac7c8a7c")
+		)
+		(pin "3"
+			(uuid "a450771f-7433-4be1-b18c-74494f88a123")
+		)
+		(pin "1"
+			(uuid "c841f388-6e2b-40ee-b275-9369f5cc5ff8")
+		)
+		(instances
+			(project ""
+				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 106.68 144.78 0)
 		(unit 1)
@@ -8622,6 +8551,77 @@
 			(project "SparkFun_BMV080"
 				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_3_Bridged123_No_Silk")
+		(at 215.9 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f14ad3-c676-4635-8ffc-061583185702")
+		(property "Reference" "JP4"
+			(at 215.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I2C"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_3_NC-2_Trace_NoSilk"
+			(at 215.646 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, pins 1+2+3 closed/bridged"
+			(at 215.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b77250dc-b962-4b70-b6f0-c236bb7a0f3d")
+		)
+		(pin "1"
+			(uuid "0042887f-a3a9-4a7a-8e60-85033e53ceec")
+		)
+		(pin "2"
+			(uuid "170c9b37-16d8-43a9-8be2-3aec76343dff")
+		)
+		(instances
+			(project ""
+				(path "/7d38b1bd-099f-4b8c-8c99-a0900e0f5fdd"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
