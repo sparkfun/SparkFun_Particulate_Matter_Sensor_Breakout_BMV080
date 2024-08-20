@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.276 -2.615 0)
+		(at -0.205 -2.046 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "0a7d6664-2a7d-4be7-bcc2-0f7b0bfdff02")
@@ -298,150 +298,10 @@
 		(layer "F.Fab")
 		(uuid "ec1f3a88-57ac-4ff9-b9df-b3e9ebb6f692")
 	)
-	(fp_line
-		(start -4.873 -6.198)
-		(end -4.873 -4.738)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "e26e3da6-01fe-4f62-84c3-0b0a8ddf4013")
-	)
-	(fp_line
-		(start -4.873 -4.738)
-		(end -4.833 -4.738)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "9b04d3f3-baed-4f62-8546-f904f1804ab6")
-	)
-	(fp_line
-		(start -4.833 -4.738)
-		(end -4.833 -3.648)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "76a5d064-e739-4957-b227-41bb5396a47b")
-	)
-	(fp_line
-		(start -4.833 -3.648)
-		(end -4.683 -3.49777)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "4eb57d93-770c-42a1-8ccb-c5ce3c8b53ea")
-	)
-	(fp_line
-		(start -4.683 -3.49777)
-		(end -4.153 -3.49777)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "9c47308c-2f29-4a55-aadc-d385c885e326")
-	)
-	(fp_line
-		(start -4.153 -3.548)
-		(end -0.053 -3.548)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "70429189-aa06-4cd2-8a2b-657356699bb0")
-	)
-	(fp_line
-		(start -4.153 -3.49777)
-		(end -4.153 -3.548)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "ae0fb877-fb8b-47a6-b976-2e96520c4e13")
-	)
-	(fp_line
-		(start -0.053 -3.548)
-		(end -0.053 -3.49777)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "21e2bad9-ae00-46f5-9273-bc8b6aee92ac")
-	)
-	(fp_line
-		(start -0.053 -3.49777)
-		(end 0.477 -3.49777)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "409b8bd5-7a24-4d31-8b3e-9977926f342d")
-	)
-	(fp_line
-		(start 0.477 -3.49777)
-		(end 0.627 -3.648)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "4dfaa536-d113-4894-9db1-313cce08205f")
-	)
-	(fp_line
-		(start 0.627 -4.738)
-		(end 0.667 -4.738)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "4dc1d956-58f0-423b-a91e-a9b66f300bd1")
-	)
-	(fp_line
-		(start 0.627 -3.648)
-		(end 0.627 -4.738)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "6cca532c-af29-41f0-9d57-558e21e9eefb")
-	)
-	(fp_line
-		(start 0.667 -6.198)
-		(end -4.873 -6.198)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "86e567e7-5e87-43a7-b3a1-6c81c0b99f2f")
-	)
-	(fp_line
-		(start 0.667 -4.738)
-		(end 0.667 -6.198)
-		(stroke
-			(width 0.025)
-			(type default)
-		)
-		(layer "User.1")
-		(uuid "46b69cf3-8b4b-4626-b8f8-4ae1e0edf2fa")
-	)
 	(fp_text user "^^INSERT THIS END^^"
 		(at -0.016 2.314 0)
 		(unlocked yes)
-		(layer "Dwgs.User")
+		(layer "User.1")
 		(uuid "220e8b3f-d64b-45c0-b434-9d21c44f6844")
 		(effects
 			(font
@@ -449,18 +309,6 @@
 				(thickness 0.075)
 			)
 			(justify bottom)
-		)
-	)
-	(fp_text user "VAL**"
-		(at -0.264 -1.913 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "02a8e200-9c43-48de-87c1-accac0ed4a9e")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.15)
-			)
 		)
 	)
 	(pad "1" smd roundrect
@@ -592,17 +440,6 @@
 			"7e7552cc-41d6-4ddc-a4b8-3234e9eb71e0" "9c7211a7-66dc-4dd5-8769-41d2b6127daf"
 			"a2b43b77-6be2-4f69-996f-28be00c3e815" "c6465e76-c89e-41c5-8ef6-7368b0d9d29e"
 			"d5d84ce8-3d90-48ce-a34f-a18a3abe7b96" "ec1f3a88-57ac-4ff9-b9df-b3e9ebb6f692"
-		)
-	)
-	(group ""
-		(uuid "b98d46c2-0ee9-4f2e-86aa-5506f52c71ed")
-		(members "21e2bad9-ae00-46f5-9273-bc8b6aee92ac" "409b8bd5-7a24-4d31-8b3e-9977926f342d"
-			"46b69cf3-8b4b-4626-b8f8-4ae1e0edf2fa" "4dc1d956-58f0-423b-a91e-a9b66f300bd1"
-			"4dfaa536-d113-4894-9db1-313cce08205f" "4eb57d93-770c-42a1-8ccb-c5ce3c8b53ea"
-			"6cca532c-af29-41f0-9d57-558e21e9eefb" "70429189-aa06-4cd2-8a2b-657356699bb0"
-			"76a5d064-e739-4957-b227-41bb5396a47b" "86e567e7-5e87-43a7-b3a1-6c81c0b99f2f"
-			"9b04d3f3-baed-4f62-8546-f904f1804ab6" "9c47308c-2f29-4a55-aadc-d385c885e326"
-			"ae0fb877-fb8b-47a6-b976-2e96520c4e13" "e26e3da6-01fe-4f62-84c3-0b0a8ddf4013"
 		)
 	)
 	(model "${KIPRJMOD}/BMV080.3dshapes/FPC_0.3mm-13_MOLEX_503566-1302.step"
