@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "NDA"
 			(at -1.27 1.27 0)
 			(effects
 				(font

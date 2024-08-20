@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/503/503566/5035661302_sd.pdf"
 		(at 0 7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
