@@ -49,13 +49,21 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-22926"
+		(property "PROD_ID" "CONN-22959"
 			(at -3.302 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PROD_ID_SENSOR" "IC-22926"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "SparkFun BMV080 Particulate Matter Sensor Air Quality Bosch"
