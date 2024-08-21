@@ -4608,6 +4608,17 @@
 		)
 		(uuid "5c251a77-bb1d-4c9d-b4e6-935c8d5f0bf7")
 	)
+	(text "VCC INPUT ON THIS DESIGN: 3.3V (due to laser sharing VCC)\nOtherwise...\nVDDIO: 1.2-3.3V\nVDDD: 2.5-3.3V\nVDDL: 3.3V\nVDDA: 2.5V-3.3V\n\nOperating Temperature Range: -10C to +40C"
+		(exclude_from_sim no)
+		(at 16.256 31.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c77a26d-3480-49b5-8cf4-b8fc666a4fc1")
+	)
 	(text "0"
 		(exclude_from_sim no)
 		(at 92.71 117.094 0)
