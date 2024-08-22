@@ -17,7 +17,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 10.16 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -25,7 +25,7 @@
 				)
 			)
 			(property "Value" "BMV080"
-				(at 5.08 10.16 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,7 +33,7 @@
 				)
 			)
 			(property "Footprint" "BMV080:FPC_0.3mm-13_molex_503566-1302"
-				(at -1.27 1.27 0)
+				(at -0.508 -17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -42,7 +42,7 @@
 				)
 			)
 			(property "Datasheet" "NDA"
-				(at -1.27 1.27 0)
+				(at -0.762 -14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -51,7 +51,7 @@
 				)
 			)
 			(property "Description" "BMV080 Particulate Matter Sensor"
-				(at 0 -11.176 0)
+				(at 1.27 -19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -60,7 +60,7 @@
 				)
 			)
 			(property "PROD_ID" "CONN-22959"
-				(at -3.302 -13.716 0)
+				(at 0.254 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -69,11 +69,12 @@
 				)
 			)
 			(property "PROD_ID_SENSOR" "IC-22926"
-				(at 0 0 0)
+				(at -0.508 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun BMV080 Particulate Matter Sensor Air Quality Bosch"
@@ -172,7 +173,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 13.97 -5.08 180)
+					(at 11.43 -5.08 180)
 					(length 2.54) hide
 					(name "NC"
 						(effects
@@ -228,7 +229,7 @@
 				(pin input line
 					(at 13.97 0 180)
 					(length 2.54)
-					(name "~{CSB}/AB1"
+					(name "~{CS}/AB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3886,6 +3887,17 @@
 		)
 		(uuid "0ed14557-1e7d-4f01-afdb-0d61b7f9599c")
 	)
+	(polyline
+		(pts
+			(xy 114.3 93.98) (xy 149.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 132 132 1)
+		)
+		(uuid "12181257-a09b-4c32-9c25-3b1664ec3537")
+	)
 	(wire
 		(pts
 			(xy 224.79 29.21) (xy 227.33 29.21)
@@ -4813,7 +4825,7 @@
 		)
 		(uuid "e5bf585d-b4c7-4efd-9dd3-ee7809b8afec")
 	)
-	(text "To removed pull-up resistors\non SDA/SCL, cut traces in jumper, JPF (I2C)"
+	(text "To remove pull-up resistors\non SDA/SCL, cut traces in jumper, JP4 (I2C)"
 		(exclude_from_sim no)
 		(at 237.236 78.74 0)
 		(effects
@@ -6849,7 +6861,7 @@
 			)
 		)
 		(property "Value" "BMV080"
-			(at 90.932 78.994 0)
+			(at 90.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +6869,7 @@
 			)
 		)
 		(property "Footprint" "BMV080:FPC_0.3mm-13_molex_503566-1302"
-			(at 88.9 67.31 0)
+			(at 89.662 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +6878,7 @@
 			)
 		)
 		(property "Datasheet" "NDA"
-			(at 88.9 67.31 0)
+			(at 89.408 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,7 +6887,7 @@
 			)
 		)
 		(property "Description" "BMV080 Particulate Matter Sensor"
-			(at 90.17 79.756 0)
+			(at 91.44 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +6896,7 @@
 			)
 		)
 		(property "PROD_ID" "CONN-22959"
-			(at 86.868 82.296 0)
+			(at 90.424 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +6905,7 @@
 			)
 		)
 		(property "PROD_ID_SENSOR" "IC-22926"
-			(at 90.17 79.502 0)
+			(at 89.662 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

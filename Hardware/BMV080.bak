@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 10.16 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "BMV080"
-			(at 5.08 10.16 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "BMV080:FPC_0.3mm-13_molex_503566-1302"
-			(at -1.27 1.27 0)
+			(at -0.254 -19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "NDA"
-			(at -1.27 1.27 0)
+			(at -1.016 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "BMV080 Particulate Matter Sensor"
-			(at 0 -11.176 0)
+			(at 0.762 -21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,8 +49,17 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "IC-22926"
-			(at -3.302 -13.716 0)
+		(property "PROD_ID" "CONN-22959"
+			(at 0.762 -24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID_SENSOR" "IC-22926"
+			(at -0.762 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154,7 +163,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 13.97 -5.08 180)
+				(at 11.43 -5.08 180)
 				(length 2.54) hide
 				(name "NC"
 					(effects
@@ -210,7 +219,7 @@
 			(pin input line
 				(at 13.97 0 180)
 				(length 2.54)
-				(name "~{CSB}/AB1"
+				(name "~{CS}/AB1"
 					(effects
 						(font
 							(size 1.27 1.27)
