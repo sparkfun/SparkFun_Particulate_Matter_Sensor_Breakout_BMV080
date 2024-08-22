@@ -4468,6 +4468,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4479,6 +4480,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6494,6 +6496,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6506,6 +6509,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -10706,20 +10710,20 @@
 		(uuid "140d4652-28e4-4d0c-99e5-8826f90e4ffd")
 	)
 	(segment
+		(start 121.715 94.58)
+		(end 120.89 94.58)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "2289ff2c-8f3b-4894-be0a-0d81f510cc09")
+	)
+	(segment
 		(start 119.285 92.48)
 		(end 117.59 92.48)
 		(width 0.2032)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "296c3f98-e9b4-405d-af7c-016fee4ae24d")
-	)
-	(segment
-		(start 121.715 94.58)
-		(end 121.25 94.58)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "4b235e9b-d2bf-44fe-8f7d-afb4a19f13f8")
 	)
 	(segment
 		(start 122.523755 94.58)
@@ -10744,14 +10748,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "9275d369-631e-411d-bec7-4fb33fb151ac")
-	)
-	(segment
-		(start 121.25 94.58)
-		(end 120.99 94.32)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "dc8cd7be-f07a-4c2b-b597-959bfc47d51c")
 	)
 	(via
 		(at 134.62 96.774)
