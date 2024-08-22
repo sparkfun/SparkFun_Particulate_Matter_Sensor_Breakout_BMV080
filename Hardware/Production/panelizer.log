@@ -1,0 +1,14 @@
+2024-08-22 15:15:40,517 - panelizer_logger - INFO - Running Panelizer
+2024-08-22 15:15:40,520 - panelizer_logger - INFO - ['--panelx', '63.500000', '--panely', '38.100000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialstb']
+2024-08-22 15:15:40,521 - panelizer_logger - INFO - PANELIZER START: 2024-08-22T15:15:40.521262
+2024-08-22 15:15:46,533 - panelizer_logger - WARNING - 
+START: 2024-08-22T15:15:40.521262
+Board saved by user.
+
+Board: C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.kicad_pcb
+Board dimensions: 25.40 x 12.70 mm.
+You can fit 2 x 2 boards on the panel.
+Warning: panel is under 70x70mm. It may be too small to v-score.
+Ordering Instructions not found! No futher ordering warnings will be given.
+
+2024-08-22 15:15:49,086 - panelizer_logger - INFO - Panelizer complete

@@ -2036,6 +2036,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2047,6 +2048,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3580,7 +3582,7 @@
 			)
 			(height -4.077)
 			(orientation 0)
-			(gr_text "2.15 mm"
+			(gr_text "0.08 in"
 				(at 119.601 87.378 0)
 				(layer "User.2")
 				(uuid "18006aea-2610-4451-95be-da5ec9693fca")

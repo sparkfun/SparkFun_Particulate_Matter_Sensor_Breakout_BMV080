@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|141289321|101318881|ba300e31-bddb-444b-9d6b-6501a33dc890|f470eafb-fc1c-45db-b589-91c700b32091",
+        "lib_footprint_mismatch|121300551|98619923|3e133de7-c78f-4be1-b564-2975de14bd5d|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|123762700|91670000|ecdd55ba-6595-4aac-a2b0-1a5928569506|53f97d43-187c-4a36-b19b-f881dac3efeb"
+      ],
       "meta": {
         "version": 2
       },
@@ -450,7 +454,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SparkFun_BMV080.kicad_pro",
+    "filename": "SparkFun_BMV080_panelized.kicad_pro",
     "version": 1
   },
   "net_settings": {
