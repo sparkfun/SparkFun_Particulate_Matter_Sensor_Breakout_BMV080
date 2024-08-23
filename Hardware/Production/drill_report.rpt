@@ -1,5 +1,5 @@
-Drill report for SparkFun_BMV080_panelized.kicad_pcb
-Created on 2024-08-22T15:16:28-0600
+Drill report for SparkFun_BMV080_panelized_v01b.kicad_pcb
+Created on 2024-08-23T09:14:10-0600
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'SparkFun_BMV080_panelized.drl' contains
+Drill file 'SparkFun_BMV080_panelized_v01b.drl' contains
     plated through holes:
     =============================================================
     T1  0.300mm  0.0118"  (256 holes)

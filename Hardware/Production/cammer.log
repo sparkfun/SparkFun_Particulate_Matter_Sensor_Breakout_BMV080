@@ -1,17 +1,17 @@
-2024-08-22 15:16:27,994 - cammer_logger - INFO - Running CAMmer
-2024-08-22 15:16:27,994 - cammer_logger - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
-2024-08-22 15:16:27,995 - cammer_logger - INFO - CAMMER START: 2024-08-22T15:16:27.995233
-2024-08-22 15:16:28,101 - cammer_logger - INFO - 
-START: 2024-08-22T15:16:27.995233
-Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized-F_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.GTL
-Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized-B_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.GBL
-Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized-F_Paste.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.GTP
-Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized-B_Paste.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.GBP
-Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized-F_Silkscreen.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.GTO
-Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized-B_Silkscreen.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.GBO
-Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized-F_Mask.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.GTS
-Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized-B_Mask.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.GBS
-Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized-Edge_Cuts.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware\Production\SparkFun_BMV080_panelized.GKO
+2024-08-23 09:14:10,281 - cammer_logger - INFO - Running CAMmer
+2024-08-23 09:14:10,283 - cammer_logger - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2024-08-23 09:14:10,284 - cammer_logger - INFO - CAMMER START: 2024-08-23T09:14:10.284054
+2024-08-23 09:14:10,397 - cammer_logger - INFO - 
+START: 2024-08-23T09:14:10.284054
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b-F_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b.GTL
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b-B_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b.GBL
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b-F_Paste.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b.GTP
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b-B_Paste.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b.GBP
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b-F_Silkscreen.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b.GTO
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b-B_Silkscreen.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b.GBO
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b-F_Mask.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b.GTS
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b-B_Mask.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b.GBS
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b-Edge_Cuts.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/Hardware/Production/SparkFun_BMV080_panelized_v01b.GKO
 Drill report: C:\Users\pete.lewis\Documents\GitHub\SparkFun_Particulate_Matter_Sensor_Breakout_BMV080\Hardware\Production\drill_report.rpt
 
-2024-08-22 15:16:29,794 - cammer_logger - INFO - CAMmer complete
+2024-08-23 09:14:12,113 - cammer_logger - INFO - CAMmer complete
