@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SparkFun BMV080 Particulate Matter Sensor")
-		(date "2024-08-16")
-		(rev "v02")
+		(date "2024-11-14")
+		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Pete Lewis")
 	)
