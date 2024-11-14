@@ -3797,7 +3797,7 @@
 		)
 		(model "${KIPRJMOD}/BMV080.3dshapes/FPC_0.3mm-13_MOLEX_503566-1302.step"
 			(offset
-				(xyz 0 -0.58 0)
+				(xyz 0 -0.45 0)
 			)
 			(scale
 				(xyz 1 1 1)
