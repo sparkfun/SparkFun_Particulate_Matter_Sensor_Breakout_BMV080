@@ -768,15 +768,15 @@
 			"d5d84ce8-3d90-48ce-a34f-a18a3abe7b96" "ec1f3a88-57ac-4ff9-b9df-b3e9ebb6f692"
 		)
 	)
-	(model "${KIPRJMOD}/BMV080.3dshapes/FPC_0.3mm-13_MOLEX_503566-1302.step"
+	(model "${KIPRJMOD}/BMV080.3dshapes/BMV080_Sensor_and_FPC_Connector.step"
 		(offset
-			(xyz 0 -0.58 0)
+			(xyz -0.35 -23.2 2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 180 180)
+			(xyz 0 0 0)
 		)
 	)
 )
