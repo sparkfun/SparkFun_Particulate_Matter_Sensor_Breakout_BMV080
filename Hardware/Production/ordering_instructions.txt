@@ -1,8 +1,8 @@
 Ordering Instructions:
-Panel dimensions: 65.05 x 39.65 mm.
+Panel dimensions: 161.03 x 132.05 mm.
 Material: TG155
-Solder Mask: Black
-Silkscreen: White
+Solder Mask: Red
+Silkscreen Color: White
 Layers: 2
 Finish: HASL Lead-free
 Thickness: 0.8mm
