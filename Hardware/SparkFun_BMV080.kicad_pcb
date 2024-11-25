@@ -9978,7 +9978,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Solder Mask: Black"
+	(gr_text "Solder Mask: Red"
 		(at 220.3 172.32 0)
 		(layer "F.Fab")
 		(uuid "657c4297-c664-4b19-bd30-5d207362193d")
