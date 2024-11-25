@@ -6113,7 +6113,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c0f66dd-e9c6-4461-a27e-2f9ecdbfc888")
 		(property "Reference" "C5"
