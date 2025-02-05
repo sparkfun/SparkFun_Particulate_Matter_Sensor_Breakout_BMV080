@@ -24,3 +24,6 @@ SparkFun has written a library using Bosch's API to work with the BMV080! You ca
         * **SparkFun Toolkit v???**
      * Board Definitions
         * **esp32 by Espressif v3.0.1** for the IoT RedBoard - ESP32.
+
+
+Now that we have our library and board add-on installed, we can start experimenting with the breakout board. For the scope of this tutorial, we will highlight the examples to get started. From there we will be able to build our own custom code to integrate the development board into a project.
