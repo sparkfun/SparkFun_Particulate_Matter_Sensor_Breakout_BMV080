@@ -1,4 +1,4 @@
-In this section, we will highlight the hardware and pins that are broken out on the SparkFun Qwiic Mini Particulate Matter Sensor Breakout - BMV080. For more information, check out our [Resources and Going Further](../resources/) on the components used for the sensor.
+In this section, we will highlight the hardware and pins that are broken out on the SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080. For more information, check out our [Resources and Going Further](../resources/) on the components used for the sensor.
 
 <div style="text-align: center;">
   <table>

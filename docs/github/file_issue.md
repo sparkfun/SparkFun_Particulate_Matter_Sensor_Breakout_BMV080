@@ -14,7 +14,7 @@ Spot something wrong? Please let us know. <a href="https://github.com/sparkfun/S
 
 All of this documentation can be modified by you! Please help us make it better.
 
-* The documentation files for these pages are contained in the [`docs` folder of the SparkFun Qwiic Mini Particulate Matter Sensor Breakout - BMV080 repository](https://github.com/sparkfun/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/tree/main/docs).
+* The documentation files for these pages are contained in the [`docs` folder of the SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080 repository](https://github.com/sparkfun/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/tree/main/docs).
 
 ### Spot something wrong?
 If a section of the documentation is incorrect, please [open an issue](https://github.com/sparkfun/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/issues) and let us know.
@@ -30,7 +30,7 @@ If a section of the documentation is incorrect, please [open an issue](https://g
 
 All of our designs are open-source! Please help us make it better.
 
-* Our board design files are contained in the [`Hardware` folder of the SparkFun Qwiic Mini Particulate Matter Sensor Breakout - BMV080 repository](https://github.com/sparkfun/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/tree/main/Hardware).
+* Our board design files are contained in the [`Hardware` folder of the SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080 repository](https://github.com/sparkfun/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/tree/main/Hardware).
 
 ### Does something not make sense?
 If part of the design is confusing, please [open an issue](https://github.com/sparkfun/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080/issues) and let us know.
