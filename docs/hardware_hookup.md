@@ -28,6 +28,89 @@ For users looking to display the current air quality readings in real time witho
 
 
 
+### Removing the BMV080 from the enclosure
+
+For users that need to remove the BMV080 when soldering to the PTHs, you will need to remove the board from the enclosure. You may also want to remove sensor from the enclsoure when modifying the jumpers as well to avoid damaging the material when cutting or soldering the jumper pads. This section will go over how to remove the sensor from the enclosure.
+
+    insert here
+
+
+
+    parts spread out on table
+
+
+Using a precision flathead with 0.1mm tip, slide the flathead in the slot and under the tab. Rock the precision flathead's handle toward the mounting hole so that the tab pops out.
+
+    insert here
+
+
+
+
+    flathead under tab and popping out the inner shell
+
+ There is a rubber O-ring and lens between enclosure's inner and outer shell. You will want to carefully remove the inner shell holding the BMV080 over a clean, flat surface to avoid losing the small parts.
+
+    insert here
+
+
+
+
+    carefully removing inner shell showing the o-ring and lens
+
+Slide the sensor out from the inner shell's slot. At this point, you should be able to solder male header pins from the top side so that you can access the longer mating pins from the bottom side. Depending on your preference, you can also solder jumper wires to the PTHs as well depending on your setup. Carefully clean the solder joints to remove any flux residue left on the board using isopropyl alcohol and a precision Q-tip.
+
+!!! note
+    When soldering make sure to not add too much solder. This may prevent your from being able to slide the breakout board back into the inner shell. For users soldering header pins, ensure that the header's plastic spacer is flush against the breakout board and not at an angle. For users soldering wire, ensure that the stripped wire is short.
+
+
+
+### Reassembling the Enclosure
+
+Now that we are done modifying the breakout board, it is time to place the sensor back in the enclosure! This section will go over how to reassemble the parts.
+
+    insert here
+
+
+
+
+    sensor back in enclosure
+
+Slide the BMV080's breakout board into the inner shell so that the sensor aligns with the hole and the Qwiic connector aligns with the slot on the side of the inner shell's enclosure.
+
+    insert here
+
+
+
+
+    slide the BMV080 with headers back into the inner shell
+
+Turn the board over on a clean, flat surface. Using tweezers, place the lens over the hole where the BMV080's sensor is located. Then place the o-ring over lens. Ensure that the parts are in their respective square and circular slots.
+
+    insert here
+
+
+
+
+    inner shell facing away from table with lens and o-ring placed on top
+
+With the outer shell, align the hole for the lens and the slot for the Qwiic connector. Slide the outer shell in over the inner shell.
+
+    insert here
+
+
+
+    outer shell over the inner shell
+
+Push down until you hear the tabs pop in.
+
+    insert here
+
+
+
+    push down on outer shell until the tabs pop in
+
+
+
 ### Connecting via PTH
 
 !!! note
@@ -63,6 +146,7 @@ For temporary connections to the PTHs, you could use IC hooks to test out the pi
     </a>
 <!-- ----------WHITE SPACE BETWEEN GRID CARDS---------- -->
 </div>
+
 
 
 ### Interrupt
