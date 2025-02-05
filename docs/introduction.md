@@ -1,24 +1,24 @@
 
 
 
-The [SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080]() is an ultra-small, fan-less air quality sensor for sensing PM2.5 particulate matter! Within the enclosure is a breakout board that breaks out Bosch's BMV080, the world's smallest PM2.5 air quality sensor. The sensing element measures merely 4.2mm x 3.5mm x 3.1mm (W x L x H), which is more than 450 times smaller than any comparable device on the market. The innovative design is based on ultra-compact lasers with integrated photodiodes. The sensor applies sophisticated algorithms to measure PM2.5 concentration directly in free space, without requiring an intrusive fan. <!-- PM1 and PM10 concentrations can also be measured as well! -->
+The [SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080](https://www.sparkfun.com/catalog/product/view/id/26554) is an ultra-small, fan-less air quality sensor for sensing PM1 and PM2.5 particulate matter! Within the enclosure is a breakout board that breaks out Bosch's BMV080, the world's smallest PM1 and PM2.5 air quality sensor. The sensing element measures merely 4.2mm x 3.5mm x 3.1mm (W x L x H), which is more than 450 times smaller than any comparable device on the market. The innovative design is based on ultra-compact lasers with integrated photodiodes. The sensor applies sophisticated algorithms to measure PM1 and PM2.5 concentrations directly in free space, without requiring an intrusive fan. <!-- PM10 concentrations can also be measured as well! -->
 
 <div class="grid cards" style="width:500px; margin: 0 auto;" markdown>
 
--   <a href="https://www.sparkfun.com/products/26554">
+-   <a href="https://www.sparkfun.com/catalog/product/view/id/26554">
       <figure markdown>
-        <img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Mini Particulate Matter Sensor Breakout - BMV080">
+        <img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080">
       </figure>
     </a>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/26554">
-      <b>SparkFun Qwiic Mini Particulate Matter Sensor Breakout - BMV080</b>
+    <a href="https://www.sparkfun.com/catalog/product/view/id/26554">
+      <b>SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080</b>
       <br />
       SEN-26554
       <br />
-      <center>[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://){ .md-button .md-button--primary }</center>
+      <center>[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/catalog/product/view/id/26554){ .md-button .md-button--primary }</center>
     </a>
 </div>
 
@@ -162,12 +162,12 @@ We recommend using any board with an ESP32 (such as the ESP32-WROOM, ESP32-S2, a
 
 
 
-### Qwiic Cables
+### Qwiic Accessories
 
 For those that want to take advantage of the Qwiic connector, you'll want to grab a Qwiic cable. Besides the one listed earlier, there are a variety of other cable lengths available in the SparkFun catalog to choose from.
 
 <div class="grid cards col-4" markdown>
-
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/15081">
       <figure markdown>
         <img src="https://cdn.sparkfun.com/assets/parts/1/3/4/3/1/15081-_01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Cable Kit">
@@ -226,11 +226,60 @@ For those that want to take advantage of the Qwiic connector, you'll want to gra
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 </div>
 
+You'll also want a Qwiic MultiPort when daisy chaining more than one BMV080 or adding additional Qwiic-enabled devices. Adding displays will allow you to view the amount of particulate mater in the air.
+
+<div class="grid cards col-4" markdown>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/18012">
+      <figure markdown>
+        <img src="https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/8/18012-SparkFun_Qwiic_MultiPort-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic MultiPort">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/18012">
+      <b>SparkFun Qwiic MultiPort</b>
+      <br />
+      BOB-18012
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/16916">
+      <figure markdown>
+        <img src="https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/6/16916-SparkFun_Qwiic_Alphanumeric_Display_-_Red-Demo.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Alphanumeric Display - Red">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/16916">
+      <b>SparkFun Qwiic Alphanumeric Display - Red</b>
+      <br />
+      COM-16916
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/23453">
+      <figure markdown>
+        <img src="https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/2/3/23453-Qwiic-OLED-Feature-WithDisplay.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic OLED - (1.3in., 128x64)">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/23453">
+      <b>SparkFun Qwiic OLED - (1.3in., 128x64)</b>
+      <br />
+      LCD-23453
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+</div>
+
+
 
 ### Tools (Optional)
 
 !!! note
-    When soldering directly to the PTHs, you will need to be careful of the 3D printed enclosure! You will want to carefully remove the board from the enclosure when soldering.
+    When soldering directly to the PTHs, you will need to be careful of the 3D printed enclosure! You will want to carefully remove the board from the enclosure before soldering.
 
 You will need a soldering iron, solder, and [general soldering accessories](https://www.sparkfun.com/categories/49) for a secure connection when using the plated through holes.
 
@@ -322,26 +371,66 @@ You will need a soldering iron, solder, and [general soldering accessories](http
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 </div>
 
-
-### Prototyping Accessories (Optional)
-
-Depending on your setup, you may want to use IC hooks for a temporary connection. However, you will want to solder header pins to connect devices to the plated through holes for a secure connection. We opted for right angle headers for the SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080 as well as M/F jumpers to connect to the RedBoard IoT Development Board to reduce the amount of soldering.
+For users that are using the BMV080 in SPI mode or mounting the enclosure, make sure to grab the iFixit Moray Driver Kit. A precision flathead with 0.1mm tip is needed to remove the sensor from the enclosure. We also recommend using Phillips screwdriver with #0 tip and 4-40 standoffs when mounting the enclosure.
 
 <div class="grid cards col-4" markdown>
-
--   <a href="https://www.sparkfun.com/products/12002">
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/25568">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/assets/parts/8/5/0/3/12002-Breadboard_-_Self-Adhesive__White_-01.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Breadboard - Self-Adhesive (White)">
+        <img src="https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/T/O/TOL-25568-Moray-Driver-Kit-Feature-No-Lid.jpg" style="width:140px; height:140px; object-fit:contain;" alt="iFixit Moray Driver Kit">
       </figure>
     </a>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/12002">
-      <b>Breadboard - Self-Adhesive (White)</b>
+    <a href="https://www.sparkfun.com/products/25568">
+      <b>iFixit Moray Driver Kit</b>
       <br />
-      PRT-12002
+      TOL-14456
     </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+
+-   <a href="https://www.sparkfun.com/products/10927">
+      <figure markdown>
+        <img src="https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/0/10927-03.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Standoff - Nylon (4-40; 3/8in; 10 pack)">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/10927">
+      <b>Standoff - Nylon (4-40; 3/8"; 10 pack)</b>
+      <br />
+      TOL-14456
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+-   <a href="https://www.sparkfun.com/products/10453">
+      <figure markdown>
+        <img src="https://www.sparkfun.com/media/catalog/product/cache/4f365a5b84e37eacc7210a613b94a243/1/0/10453-02.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Screw - Phillips Head (1/4", 4-40, 10 pack)">
+      </figure>
+    </a>
+
+    ---
+
+    <a href="https://www.sparkfun.com/products/10453">
+      <b>Screw - Phillips Head (1/4", 4-40, 10 pack)</b>
+      <br />
+      PRT-14456
+    </a>
+<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
+</div>
+
+
+
+
+### Prototyping Accessories (Optional)
+
+!!! note
+    Due to the size of the 3D printed enclosure, you will not be able to place the sensor on a breadboard. We recommend using M/F jumper wires should you decide to solder male header pins on the sensor. Of course, when soldering the sensor to a protoboard, you could solder to the other side of the protoboard to access the pins.
+
+Depending on your setup, you may want to use IC hooks for a temporary connection when the sensor is removed from enclosure. However, you will want to solder header pins to connect devices to the plated through holes for a secure connection. We opted for straight male headers for the SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080 as well as M/F jumpers to connect to the RedBoard IoT Development Board to reduce the amount of soldering.
+
+<div class="grid cards col-4" markdown>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/9741">
       <figure markdown>
@@ -357,18 +446,18 @@ Depending on your setup, you may want to use IC hooks for a temporary connection
       CAB-09741
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="https://www.sparkfun.com/products/553">
+-   <a href="https://www.sparkfun.com/products/116">
       <figure markdown>
-        <img src="https://cdn.sparkfun.com/assets/parts/3/7/8/00553-03-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Break Away Male Headers - Right Angle">
+        <img src="https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/0/0/00116-02-L.jpg" style="width:140px; height:140px; object-fit:contain;" alt="Break Away Headers - Straight">
       </figure>
     </a>
 
     ---
 
-    <a href="https://www.sparkfun.com/products/553">
-      <b>Break Away Male Headers - Right Angle</b>
+    <a href="https://www.sparkfun.com/products/116">
+      <b>Break Away Headers - Straight</b>
       <br />
-      PRT-00553
+      PRT-00116
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/products/9140">
