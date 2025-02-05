@@ -1,4 +1,4 @@
-SparkFun Air Quality PM1/PM2.5/PM10 Sensor - BMV080
+SparkFun Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic)
 ========================================
 
 [![SparkFun Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic)](URL for picture of part)](https://www.sparkfun.com/products/
@@ -12,8 +12,8 @@ Repository Contents
 
 * **.github/workflows** - YAML files used for GitHub Actions and GitHub Pages/mkdocs
 * **/Enclosure** - Enclosure files
-* **/Hardware** - Eagle design files (.brd, .sch)
-  * **/Production** - Production panel files (.brd)
+* **/Hardware** - KiCad design files (.kicad_pcb, .kicad_sch, .kicad_pro)
+  * **/Production** - Production panel files (.kicad_pcb)
 * **/docs** - Online documentation files
   * **/assets** - Folder containing all the file assets used for product documentation
     * **/board_files** - Copy of design files used for product documentation
@@ -26,14 +26,20 @@ Repository Contents
   * **/.icons** - Icons used for GitHub used for product documentation
   * **./partials** - Used for product documentation
 
+
+
 Documentation
 --------------
-* **[Library](https://github.com/sparkfun/SparkFun_BMV080_Arduino_Library/)** - Arduijno library for the SparkFun Particulate Matter Sensor Breakout - BMV080.
+* **[Library](https://github.com/sparkfun/SparkFun_BMV080_Arduino_Library/)** - Arduino library for the SparkFun Particulate Matter Sensor Breakout - BMV080.
 * **[Hookup Guide](https://docs.sparkfun.com/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080)** - Basic hookup guide for the SparkFun Particulate Matter Sensor Breakout - BMV080.
+
+
 
 Product Versions
 ----------------
 * [SEN-26554](https://www.sparkfun.com/products/ - Basic part and short description here
+
+
 
 Version History
 ---------------
