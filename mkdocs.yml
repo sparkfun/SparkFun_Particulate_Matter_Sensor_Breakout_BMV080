@@ -256,6 +256,7 @@ extra_javascript:
 
 # Configures webpage navigation
 nav:
+  - Quickstart Guide: quickstart.md
   - Getting Started:
     - Introduction: introduction.md
     - Hardware Overview: hardware_overview.md

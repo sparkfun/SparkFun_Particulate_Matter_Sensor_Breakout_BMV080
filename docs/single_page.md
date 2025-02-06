@@ -5,6 +5,9 @@ hide:
 icon: fontawesome/solid/scroll
 ---
 
+# Quickstart Guide
+--8<-- "./docs/quickstart.md"
+
 # Introduction
 --8<-- "./docs/introduction.md"
 
