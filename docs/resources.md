@@ -1,4 +1,4 @@
-Now that you've successfully got your SparkFun Qwiic Mini Particulate Matter Sensor Breakout - BMV080 up and running, it's time to incorporate it into your own project! For more information, check out the resources below:
+Now that you've successfully got your SparkFun Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic) up and running, it's time to incorporate it into your own project! For more information, check out the resources below:
 
 * [Schematic (PDF)](../assets/board_files/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080_v10_Schematic.pdf)
 * [KiCad Files (ZIP)](../assets/board_files/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080_v10.zip)

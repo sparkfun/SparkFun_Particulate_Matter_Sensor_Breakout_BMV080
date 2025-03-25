@@ -8,7 +8,7 @@ By default, the sensor can be read through I<sup>2</sup>C. Connect a Qwiic cable
 
 ### Removing the BMV080 from the enclosure
 
-The Particulate Matter Sensor - BMV080 comes housed in an enclosure to help protect the sensor during handling and installation. The enclosure does expose the solder jumpers and PTH pins for users to access while the board is inside the enclosure. While it is possible to access these parts of the board, we recommend removing the breakout from the enclosure prior to working with either the solder jumpers or PTH pins. 
+The Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic) comes housed in an enclosure to help protect the sensor during handling and installation. The enclosure does expose the solder jumpers and PTH pins for users to access while the board is inside the enclosure. While it is possible to access these parts of the board, we recommend removing the breakout from the enclosure prior to working with either the solder jumpers or PTH pins. 
 
 We strongly recommend putting on Latex or Nitrile gloves (and **not** following our bad example in the photos below) before removing the board from the enclosure. Also, make sure to perform these steps on a **clean** and **flat** surface. Whether or not you decide to use gloves, do your best to avoid touching the enclosure's glass sensor cover and **do not** touch the bare sensor or any of the passive components (resistors/capacitors) near it:
 
