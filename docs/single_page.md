@@ -15,7 +15,7 @@ icon: fontawesome/solid/scroll
 --8<-- "./docs/hardware_overview.md"
 
 # Hardware Hookup
---8<-- "./docs/hardware_hookup.md"
+--8<-- "./docs/hardware_assembly.md"
 
 # Setting Up Arduino
 --8<-- "./docs/setting_up_arduino.md"

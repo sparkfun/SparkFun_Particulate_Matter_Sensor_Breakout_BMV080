@@ -256,11 +256,11 @@ extra_javascript:
 
 # Configures webpage navigation
 nav:
-  - Quickstart Guide: quickstart.md
-  - Getting Started:
+  - Hookup Guide:
     - Introduction: introduction.md
+    - Quickstart Guide: quickstart.md
     - Hardware Overview: hardware_overview.md
-    - Hardware Hookup: hardware_hookup.md
+    - Hardware Assembly: hardware_assembly.md
     - Setting Up Arduino: setting_up_arduino.md
     - Arduino Examples:
         - 1 &mdash; Basic Readings: ex1_basic_readings.md

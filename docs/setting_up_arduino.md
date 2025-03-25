@@ -20,8 +20,8 @@ SparkFun has written a library using Bosch's API to work with the BMV080! You ca
 
 
      * Arduino Libraries
-        * **SparkFun BMV080 Arduino Library v???**
-        * **SparkFun Toolkit v???**
+        * **SparkFun BMV080 Arduino Library**
+        * **SparkFun Toolkit v1.0.0**
      * Board Definitions
         * **esp32 by Espressif v3.0.1** for the IoT RedBoard - ESP32.
 

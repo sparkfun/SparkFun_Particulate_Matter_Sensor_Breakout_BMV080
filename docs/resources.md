@@ -5,9 +5,9 @@ Now that you've successfully got your SparkFun Qwiic Mini Particulate Matter Sen
 * [Board Dimensions (PNG)](../assets/img/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080_Board_Dimensions.png)
 * 3D Model
     * [Breakout Board (STEP)](../assets/3d_model/SparkFun_BMV080_v10_3D_model.step)
-    * [Enclosure](
+    * [Enclosure](./assets/3d_model/HMV080_Enclosure_Assembly.zip)
 * Component Datasheets
-    * [BMV080](
+    * [BMV080](./assets/component_documentation/bst-bmv080-ds000.pdf)
 * Arduino Library
     * [SparkFun BMV080](https://github.com/sparkfun/SparkFun_BMV080_Arduino_Library)
     * [SparkFun Toolkit](https://github.com/sparkfun/SparkFun_Toolkit)

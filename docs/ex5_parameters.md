@@ -3,15 +3,11 @@ This example shows how to read and set the parameters of the BMV080 via Qwiic. T
 Head to the example 5 from the Arduino IDE's menu (located in **File** **Examples** > **SparkFun BMV080 Arduino Library** > **Example_05_Parameters**).
 
 
-If you have not already, select your Board (in this case the **SparkFun ESP32 IoT RedBoard**), and associated COM port. Upload the code to the board and set the [Arduino Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics/all#arduino-serial-monitor-windows-mac-linux) to **115200** baud. The Arduino should output the paraemters before outputting the sensor readings every second.
+If you have not already, select your Board and associated COM port. Upload the code to the board and set the [Arduino Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics/all#arduino-serial-monitor-windows-mac-linux) to **115200** baud. The Arduino should output the paraemters before outputting the sensor readings every second.
 
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="BMV080 Arduino Output"></a></td>
-    </tr>
-  </table>
-</div>
+<center>
+[![Screenshot of Example 5 serial printout](./assets/img/BMV080_Arduino_Example_05_Screenshot.png){ width="600"}](./assets/img/BMV080_Arduino_Example_05_Screenshot.png "Click to enlarge")
+</center>
 
 !!! note
     If you do not see the parameters after uploading, you may not have opened the Arduino Serial Monitor when the Arduino output the parameters. Try restarting your Arduino by hitting the reset button.

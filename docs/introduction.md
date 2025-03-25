@@ -1,13 +1,13 @@
 
 
 
-The [SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080](https://www.sparkfun.com/catalog/product/view/id/26554) is an ultra-small, fan-less air quality sensor for sensing PM1 and PM2.5 particulate matter! Within the enclosure is a breakout board that breaks out Bosch's BMV080, the world's smallest PM1 and PM2.5 air quality sensor. The sensing element measures merely 4.2mm x 3.5mm x 3.1mm (W x L x H), which is more than 450 times smaller than any comparable device on the market. The innovative design is based on ultra-compact lasers with integrated photodiodes. The sensor applies sophisticated algorithms to measure PM1 and PM2.5 concentrations directly in free space, without requiring an intrusive fan. <!-- PM10 concentrations can also be measured as well! -->
+The [SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080](https://www.sparkfun.com/catalog/product/view/id/26554) is an ultra-small, fan-less air quality sensor for sensing PM1 and PM2.5 particulate matter! Within the enclosure is a breakout board that breaks out Bosch's BMV080, the world's smallest PM1, PM2.5 and PM10 air quality sensor. The sensing element measures merely 4.2mm x 3.5mm x 3.1mm (W x L x H), which is more than 450 times smaller than any comparable device on the market. The innovative design is based on ultra-compact lasers with integrated photodiodes. The sensor applies sophisticated algorithms to measure PM1, PM2.5 and PM10 concentrations directly in free space, without requiring an intrusive fan.
 
 <div class="grid cards" style="width:500px; margin: 0 auto;" markdown>
 
 -   <a href="https://www.sparkfun.com/catalog/product/view/id/26554">
       <figure markdown>
-        <img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080">
+        <img src="https://cdn.sparkfun.com/assets/parts/2/7/5/3/8/6554-BMV-Particulate-Matter-Sensor-Enclosed-Feature.jpg" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080">
       </figure>
     </a>
 
@@ -29,8 +29,7 @@ In this tutorial, we'll go over the hardware and how to hookup the sensor to an 
 
 ### Required Materials
 
-To follow along with this tutorial, you will need the following materials. You may not need everything though depending on what you have. Add it to your cart, read through the guide, and adjust the cart as necessary.
-
+This tutorial is written to use the SparkFun Particulate Matter Sensor - BMV080 with the SparkFun IoT RedBoard - ESP32. If you want to follow along exactly with the tutorial, you'll need the BMV080 along with the following items:
 
 
 <div class="grid cards col-4" markdown>
@@ -62,20 +61,6 @@ To follow along with this tutorial, you will need the following materials. You m
       <b>SparkFun IoT RedBoard - ESP32 Development Board</b>
       <br />
       WRL-19177
-    </a>
-<!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
--   <a href="">
-      <figure markdown>
-        <img src="" style="width:140px; height:140px; object-fit:contain;" alt="SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080">
-      </figure>
-    </a>
-
-    ---
-
-    <a href="">
-      <b>SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080</b>
-      <br />
-      SEN-26554
     </a>
 <!-- ----------WHITE SPACE BETWEEN PRODUCTS---------- -->
 -   <a href="https://www.sparkfun.com/flexible-qwiic-cable-200mm.html">

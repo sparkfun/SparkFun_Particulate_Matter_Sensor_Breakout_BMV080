@@ -1,105 +1,30 @@
-Below are the instructions to quickly get started Qwiic Air Quality Sensor with an Arduino! For more in depth information about the sensor and examples, make sure to check out the rest of the tutorial!
+In this Quick Start guide we'll show how to get air quality measurements from the SparkFun Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic) and IoT RedBoard - ESP32 using the Arduino IDE. This guide assumes users are familiar with the Arduino IDE and Arduino development boards. You'll need the following items to follow along with this guide:
 
-1.) Connect a Qwiic cable between the Qwiic Air Quality Sensor and the SparkFun IoT RedBoard - ESP32.
+* [SparkFun Air Quality PM2/PM2.5/PM10 Sensor - BMV080 (Qwiic)](https://www.sparkfun.com/sparkfun-air-quality-pm1-pm2-5-pm10-sensor-bmv080-qwiic.html)
+* [SparkFun IoT RedBoard - ESP32](https://www.sparkfun.com/sparkfun-iot-redboard-esp32-development-board.html)
+* [Qwiic Cable](https://www.sparkfun.com/flexible-qwiic-cable-100mm.html)
+* [USB-C Cable](https://www.sparkfun.com/reversible-usb-a-to-c-cable-0-8m.html)
 
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Qwiic Air Quality Sensor Connected to SparkFun IoT RedBoard - ESP32"></a></td>
-    </tr>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Qwiic Air Quality Sensor Connected to SparkFun IoT RedBoard - ESP32</i></td>
-    </tr>
-  </table>
-</div>
+If you're unfamiliar with any of the concepts covered here or would like more information about the Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic) read on to the following sections for detailed information about the BMV080 along with instructions on assembling it into a circuit, removing the breakout board from the enclosure and installing and using the BMV080 Arduino library.
 
-2.) Connect a USB cable between your computer and the SparkFun IoT RedBoard.
+## Basic Assembly
 
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="USB Cable to SparkFun IoT RedBoard"></a></td>
-    </tr>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>USB Cable to SparkFun IoT RedBoard</i></td>
-    </tr>
-  </table>
-</div>
+Start by connecting the Air Quality Sensor - BMV080 to the IoT RedBoard - ESP32 using a Qwiic cable and then connect the IoT RedBoard - ESP23 to your computer with a USB-C cable:
 
-3.) Select the board definition (in this case, it was **SparkFun ESP32 IoT RedBoard**).
+<center>
+[![Qwiic assembly with IoT RedBoard - ESP32](./assets/img/BMV080_Qwiic_Assembly.jpg){ width="600}](./assets/img/BMV080_Qwiic_Assembly.jpg "Click to enlarge")
+</center>
 
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Select Board Definition from Arduino IDE"></a></td>
-    </tr>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Select Board Definition from Arduino IDE</i></td>
-    </tr>
-  </table>
-</div>
+## Arduino Example 1 - Basic Readings
 
-4.) Select the COM port (in this case, it was **COM13**).
+This example demonstrates the basics of initializing and reading air quality data from the BMV080 over I<sup>2</sup>C. Run "Example 01 - Basic Readings" by completing the following steps:
 
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Select COM Port from Arduino IDE"></a></td>
-    </tr>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Select COM Port from Arduino IDE</i></td>
-    </tr>
-  </table>
-</div>
+* Open the [Library Manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/) tool, search for "SparkFun BMV080" and install the latest version of the SparkFun BMV080 library.
+* If necessary, open the [Boards Manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager/) tool, search for "SparkFun ESP32" and install the latest version of the SparkFun ESP boards.
+* In the Examples menu, open **Example_01_BasicReadings**.
+* Select the Board (SparkFun ESP32 IoT RedBoard) and Port and click "Upload".
+* Open the [Serial Monitor](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor) with the baud set to **115200** to view particulate matter readings from the BMV080.
 
-5.) In the Arduino Library Manager, search for the "**SparkFun BMV080**" to  install the [SparkFun BMV080 Arduino Library](https://github.com/sparkfun/SparkFun_BMV080_Arduino_Library).
-
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Install Arduino Library"></a></td>
-    </tr>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Install Arduino Library</i></td>
-    </tr>
-  </table>
-</div>
-
-6.) Open example 1 through the Arduino IDE's menu: **File** > **Examples** > **SparkFun BMV080 Arduino Library** > **Example_01_BasicReadings**.
-
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Open Example 1"></a></td>
-    </tr>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Open Example 1</i></td>
-    </tr>
-  </table>
-</div>
-
-7.) Upload example code.
-
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="Upload example code"></a></td>
-    </tr>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>Upload example code</i></td>
-    </tr>
-  </table>
-</div>
-
-8.) Open Arduino Serial Monitor at **115200** to begin detecting particulate matter!
-
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/"><img src="../assets/img/" width="600px" height="600px" alt="BMV080 Arduino Output"></a></td>
-    </tr>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><i>BMV080 Arduino Output</i></td>
-    </tr>
-  </table>
-</div>
+<center>
+[![Screenshot of serial monitor printing out air quality readings](./assets/img/BMV080_Arduino_Example_01_Screenshot.png){ width="600"}](./assets/img/BMV080_Arduino_Example_01_Screenshot.png)
+</center>

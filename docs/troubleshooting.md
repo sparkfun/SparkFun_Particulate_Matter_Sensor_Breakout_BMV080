@@ -1,3 +1,9 @@
+### Sensor Handling & Care
+
+The BMV080's sensing apparatus is exceptionally sensitive and can be obstructed by small particles of dust along with any other substance present on either the sensor itself or the enclosure's protective lense such as oil from your fingers. Be very careful when handling the sensor to not touch the sensing area even when in the enclosure.
+
+If the sensor reports any "obstruction" carefully clean the sensor using compressed air (recommended) or, if absolutely necessary, a clean, non-abrasive tissue.
+
 ### General Troubleshooting Help
 
 !!! note
