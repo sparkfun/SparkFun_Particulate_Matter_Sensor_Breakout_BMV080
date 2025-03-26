@@ -1,7 +1,7 @@
 SparkFun Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic)
 ========================================
 
-[![SparkFun Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic)](https://cdn.sparkfun.com/assets/parts/2/7/5/3/8/6554-BMV-Particulate-Matter-Sensor-Enclosed-Feature.jpg)](https://www.sparkfun.com/sparkfun-air-quality-pm1-pm2-5-pm10-sensor-bmv080-qwiic.html)
+[![SparkFun Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/7/5/3/8/6554-BMV-Particulate-Matter-Sensor-Enclosed-Feature.jpg)
 
 [*SparkFun Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic) (SEN-26554)*](https://www.sparkfun.com/sparkfun-air-quality-pm1-pm2-5-pm10-sensor-bmv080-qwiic.html)
 
