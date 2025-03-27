@@ -1,4 +1,4 @@
-This example shows how to read the BMV080 via Qwiic when the sensor is configured in duty cycle mode. The output to the Qwiic Alphanumeric display will show the amount of particulate matter that is detected.
+This example shows how to read the BMV080 via Qwiic when the sensor is configured in duty cycle mode and outputs the readings to display them on a Qwiic Alphanumeric display connected over a Qwiic daisy-chain. You'll need a [Qwii Alphanumeric Display](https://www.sparkfun.com/sparkfun-qwiic-alphanumeric-display-red.html) to run this example.
 
 Head to the example 7 from the Arduino IDE's menu (located in **File** **Examples** > **SparkFun BMV080 Arduino Library** > **Example_07_Demo_Alphanumeric**).
 

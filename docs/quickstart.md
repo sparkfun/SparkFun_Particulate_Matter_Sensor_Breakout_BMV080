@@ -12,7 +12,7 @@ If you're unfamiliar with any of the concepts covered here or would like more in
 Start by connecting the Air Quality Sensor - BMV080 to the IoT RedBoard - ESP32 using a Qwiic cable and then connect the IoT RedBoard - ESP23 to your computer with a USB-C cable:
 
 <center>
-[![Qwiic assembly with IoT RedBoard - ESP32](./assets/img/BMV080_Qwiic_Assembly.jpg){ width="600}](./assets/img/BMV080_Qwiic_Assembly.jpg "Click to enlarge")
+[![Photo of completed Qwiic assembly](./assets/img/BMV080_Qwiic_Assembly.jpg){ width="600"}](./assets/img/BMV080_Qwiic_Assembly.jpg "Click to enlarge")
 </center>
 
 ## Arduino Example 1 - Basic Readings

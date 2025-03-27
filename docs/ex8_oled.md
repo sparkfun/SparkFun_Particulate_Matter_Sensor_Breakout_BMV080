@@ -1,4 +1,4 @@
-This example shows how to read the BMV080 via Qwiic when the sensor is configured in duty cycle mode. The output to the Qwiic OLED Display (specifically the 1.3", 128x64) will show the amount of particulate matter that is detected.
+This example shows how to read the BMV080 via Qwiic when the sensor is configured in duty cycle mode and outputs sensor data to a connected Qwiic OLED Display (specifically the 1.3", 128x64). You'll need a [Qwiic OLED Display](https://www.sparkfun.com/sparkfun-qwiic-oled-1-3in-128x64.html) connected to the Qwiic circuit to run this example.
 
 Head to the example 8 from the Arduino IDE's menu (located in **File** **Examples** > **SparkFun BMV080 Arduino Library** > **Example_08_Demo_OLED**).
 
