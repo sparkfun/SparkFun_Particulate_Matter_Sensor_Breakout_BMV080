@@ -15,11 +15,45 @@ Start by connecting the Air Quality Sensor - BMV080 to the IoT RedBoard - ESP32 
 [![Photo of completed Qwiic assembly](./assets/img/BMV080_Qwiic_Assembly.jpg){ width="600"}](./assets/img/BMV080_Qwiic_Assembly.jpg "Click to enlarge")
 </center>
 
+## Installing SparkFun BMV080 Arduino Library & Bosch BMV080 SDK Files
+
+The SparkFun BMV080 Arduino library requires some manual installation as it does **not** include the required files from BMV080 SDK from Bosch. Users will need to download the SDK from [this page](https://www.bosch-sensortec.com/products/environmental-sensors/particulate-matter-sensor/bmv080/#documents) and then manually place the necessary files in the SparkFun BMV080 Arduino library folder. The tables below outlines where to find the Arduino Libraries folder along with the filepaths and filenames of all SDK files you'll need to copy into the SparkFun BMV080 Arduino folder:
+
+### Library Install Directory
+
+| OS | Directory|
+|---|---|
+|macOS | $HOME/Documents/Arduino/libraries/SparkFun_BMV080_Arduino_Library|
+|Windows | $HOME\Documents\Arduino\libraries\SparkFun_BMV080_Arduino_Library|
+|Linux| $HOME/Arduino/libraries/SparkFun_BMV080_Arduino_Library|
+
+### Files to copy and locations to copy to
+
+From the Bosch SDK, the following files are copied into the specified library locations.
+
+|Bosch SDK File | SparkFun BMV080 Arduino Library Directory|
+|--|--|
+|api/inc/bmv080.h| src/sfTk/bmv080.h|
+|api/inc/bmv080_defs.h| src/sfTk/bmv080_defs.h|
+|api/api/lib/xtensa_esp32/xtensa_esp32_elf_gcc/release/lib_bmv080.a | src/esp32/lib_bmv080.a|
+|api/api/lib/xtensa_esp32/xtensa_esp32_elf_gcc/release/lib_postProcessor.a | src/esp32/lib_postProcessor.a|
+|api/api/lib/xtensa_esp32s2/xtensa_esp32s2_elf_gcc/release/lib_postProcessor.a | src/esp32s2/lib_postProcessor.a|
+|api/api/lib/xtensa_esp32s2/xtensa_esp32s2_elf_gcc/release/lib_bmv080.a | src/esp32s2/lib_bmv080.a|
+|api/api/lib/xtensa_esp32s3/xtensa_esp32s3_elf_gcc/release/lib_postProcessor.a | src/esp32s3/lib_postProcessor.a|
+|api/api/lib/xtensa_esp32s3/xtensa_esp32s3_elf_gcc/release/lib_bmv080.a | src/esp32s3/lib_bmv080.a|
+|api/api/lib/arm_cortex_m0plus/xarm_none_eabi_gcc/release/lib_postProcessor.a | src/cortex-m0plus/lib_postProcessor.a|
+|api/api/lib/arm_cortex_m0plus/arm_none_eabi_gcc/release/lib_bmv080.a | src/cortex-m0plus/lib_bmv080.a|
+|api/api/lib/arm_cortex_m33f/xarm_none_eabi_gcc/release/lib_postProcessor.a | src/cortex-m33/lib_postProcessor.a|
+|api/api/lib/arm_cortex_m33f/arm_none_eabi_gcc/release/lib_bmv080.a | src/cortex-m33/lib_bmv080.a|
+|api/api/lib/arm_cortex_m4/xarm_none_eabi_gcc/release/lib_postProcessor.a | src/cortex-m4/lib_postProcessor.a|
+|api/api/lib/arm_cortex_m4/arm_none_eabi_gcc/release/lib_bmv080.a | src/cortex-m4/lib_bmv080.a|
+|api/api/lib/arm_cortex_m4f/xarm_none_eabi_gcc/release/lib_postProcessor.a | src/cortex-m4f/lib_postProcessor.a|
+|api/api/lib/arm_cortex_m4f/arm_none_eabi_gcc/release/lib_bmv080.a | src/cortex-m4f/lib_bmv080.a|
+
 ## Arduino Example 1 - Basic Readings
 
 This example demonstrates the basics of initializing and reading air quality data from the BMV080 over I<sup>2</sup>C. Run "Example 01 - Basic Readings" by completing the following steps:
 
-* Open the [Library Manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/) tool, search for "SparkFun BMV080" and install the latest version of the SparkFun BMV080 library.
 * If necessary, open the [Boards Manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager/) tool, search for "SparkFun ESP32" and install the latest version of the SparkFun ESP boards.
 * In the Examples menu, open **Example_01_BasicReadings**.
 * Select the Board (SparkFun ESP32 IoT RedBoard) and Port and click "Upload".
