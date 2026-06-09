@@ -11,9 +11,9 @@
 
 SparkFun has written a library using Bosch's API to work with the BMV080! You can obtain this library through the Arduino Library Manager by searching for "**SparkFun BMV080**". Find the one written by SparkFun Electronics and install the latest version. Users who prefer to manually install the library can get it from the [GitHub Repository](https://github.com/sparkfun/SparkFun_BMV080_Arduino_Library) or download the .ZIP by clicking the button below:
 
-<center>
+
 [SparkFun BMV080 Arduino Library (ZIP)](https://github.com/sparkfun/SparkFun_BMV080_Arduino_Library/archive/refs/heads/feature/remove-bosch-sdk.zip){ .md-button .md-button--primary }
-</center>
+
 
 !!! note
     The SparkFun BMV080 Arduino Library uses the [SparkFun Toolkit](https://github.com/sparkfun/SparkFun_Toolkit) as a dependency. This should automatically download when installing the library using the Arduino Library Manager. For users that are installing the BMV080 library manually, make sure to download the SparkFun Toolkit as well. At the time of writing, we were using the following Arduino Libraries, firmware binaries, board add-ons.

@@ -11,9 +11,9 @@ If you're unfamiliar with any of the concepts covered here or would like more in
 
 Start by connecting the Air Quality Sensor - BMV080 to the IoT RedBoard - ESP32 using a Qwiic cable and then connect the IoT RedBoard - ESP23 to your computer with a USB-C cable:
 
-<center>
+
 [![Photo of completed Qwiic assembly](./assets/img/BMV080_Qwiic_Assembly.jpg){ width="600"}](./assets/img/BMV080_Qwiic_Assembly.jpg "Click to enlarge")
-</center>
+
 
 ## Installing SparkFun BMV080 Arduino Library & Bosch BMV080 SDK Files
 
@@ -59,6 +59,5 @@ This example demonstrates the basics of initializing and reading air quality dat
 * Select the Board (SparkFun ESP32 IoT RedBoard) and Port and click "Upload".
 * Open the [Serial Monitor](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor) with the baud set to **115200** to view particulate matter readings from the BMV080.
 
-<center>
+
 [![Screenshot of serial monitor printing out air quality readings](./assets/img/BMV080_Arduino_Example_01_Screenshot.png){ width="600"}](./assets/img/BMV080_Arduino_Example_01_Screenshot.png)
-</center>

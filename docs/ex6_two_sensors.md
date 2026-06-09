@@ -7,6 +7,6 @@ Head to the example 6 from the Arduino IDE's menu (located in **File** **Example
 
 If you have not already, select your Board and associated COM port. Upload the code to the board and set the [Arduino Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics/all#arduino-serial-monitor-windows-mac-linux) to **115200** baud. The Arduino should begin outputting the sensor readings from both BMV080s.
 
-<center>
+
 [![Screenshot of Example 6 serial printout](./assets/img/BMV080_Arduino_Example_06_Screenshot.png){ width="600"}](./assets/img/BMV080_Arduino_Example_06_Screenshot.png "Click to enlarge")
-</center>
+

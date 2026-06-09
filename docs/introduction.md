@@ -18,7 +18,7 @@ The [SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080](https://www.spar
       <br />
       SEN-26554
       <br />
-      <center>[Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/catalog/product/view/id/26554){ .md-button .md-button--primary }</center>
+      [Purchase from SparkFun :fontawesome-solid-cart-plus:](https://www.sparkfun.com/catalog/product/view/id/26554){ .md-button .md-button--primary }
     </a>
 </div>
 

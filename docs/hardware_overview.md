@@ -1,8 +1,8 @@
 In this section, we will highlight the hardware and pins that are broken out on the SparkFun Qwiic Air Quality PM1/PM2.5/PM10 Sensor - BMV080. For more information, check out our [Resources and Going Further](../resources/) on the components used for the sensor.
 
-<center>
+
 [![Annotated photo of BMV080 Breakout](./assets/img/BMV080_Annotated.jpg){ width="600"}](./assets/img/BMV080_Annotated.jpg "Click to enlarge")
-</center>
+
 
 ### BMV080
 
@@ -118,10 +118,10 @@ A 3D model of the board and components was exported to a STEP file using KiCad.
 <!-- Import the component -->
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
-<center>
+
     <model-viewer src="../assets/3d_model/SparkFun_BMV080_v10_3D_model.glb" camera-controls poster="../assets/3d_model/SparkFun_BMV080_v10_3D_image.jpg" environment-image="legacy" shadow-intensity="1.58" exposure="0.64" shadow-softness="0.24" tone-mapping="neutral" camera-orbit="-46.67deg 57.14deg 153.3m" field-of-view="30deg" style="width: 750px; height: 500px;">
     </model-viewer>
-</center>
+
 <br />
 <div style="text-align: center">
     <a href="../assets/3d_model/SparkFun_BMV080_v10_3D_model.step" target="stp_file" class="md-button">Click Here for the STEP File</a>
@@ -132,6 +132,5 @@ A 3D model of the board and components was exported to a STEP file using KiCad.
 ### Board Dimensions
 
 The board measures 0.5" x 0.95" (12.70mm x 24.13mm). The breakout board itself does not have mounting holes though the enclosure has two mounting slots to attach the sensor to your project.
-<center>
+
 [![Board Dimensions](./assets/img/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080_Board_Dimensions.png){ width="600"}](./assets/img/SparkFun_Particulate_Matter_Sensor_Breakout_BMV080_Board_Dimensions.png "Click to enlarge")
-</center>

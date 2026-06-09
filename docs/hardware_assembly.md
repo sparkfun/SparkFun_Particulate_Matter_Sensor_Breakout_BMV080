@@ -2,9 +2,9 @@
 
 By default, the sensor can be read through I<sup>2</sup>C. Connect a Qwiic cable between the SparkFun Qwiic Air Quality Sensor and your microcontroller. Then connect a compatible USB cable between the microcontroller and your computer's USB port.
 
-<center>
+
 [![Photo of completed Qwiic assembly](./assets/img/BMV080_Qwiic_Assembly.jpg){ width="600"}](./assets/img/BMV080_Qwiic_Assembly.jpg "Click to enlarge")
-</center>
+
 
 ### Removing the BMV080 from the enclosure
 
@@ -12,50 +12,50 @@ The Air Quality PM1/PM2.5/PM10 Sensor - BMV080 (Qwiic) comes housed in an enclos
 
 We strongly recommend putting on Latex or Nitrile gloves (and **not** following our bad example in the photos below) before removing the board from the enclosure. Also, make sure to perform these steps on a **clean** and **flat** surface. Whether or not you decide to use gloves, do your best to avoid touching the enclosure's glass sensor cover and **do not** touch the bare sensor or any of the passive components (resistors/capacitors) near it:
 
-<center>
+
 [![Photo showing areas to avoid touching while handling the BMV080](./assets/img/BMV080_DO_NOT_TOUCH.jpg){ width="600"}](./assets/img/BMV080_DO_NOT_TOUCH.jpg "Click to enlarge")
-</center>
+
 
 Start by identifying the two slots on either side of the enclosure. Next, carefully slide a precision flathead screwdriver or similar precise tool into one of the slots and gently wedge it under the tab. Rock the precision flathead's handle toward the mounting hole so the tab pops out.
 
-<center>
+
 [![Photo showing using a precision screwdriver to unlock the tab holding the two enclosure pieces together.](./assets/img/BMV080_Unlocking_Enclosure.jpg){ width="600"}](./assets/img/BMV080_Unlocking_Enclosure.jpg "Click to enlarge")
-</center>
+
 
 Repeat this step on the other side to "unlock" the two pieces of the enclosure, then carefully remove the outer shell of the enclosure.
 
-<center>
+
 [![Photo showing separation of the two pieces of the sensor enclosure.](./assets/img/BMV080_Removing_Outer_Shell.jpg){ width="600"}](./assets/img/BMV080_Removing_Outer_Shell.jpg "Click to enlarge")
-</center>
+
 
 
 Next, identify the rubber O-ring and lens cover (beneath the O-ring) covering the BMV080 aperture. Using tweezers, first remove the O-ring and then the lens cover. Make sure to place them on a clean surface to avoid contaminating them with dust or other substances:
 
-<center>
-[![Photo showing removing the O-ring with tweezers.](./assets/img/BMV080_O-Ring_Removal.jpg){ width="600"}](./assets/img/BMV080_O-Ring_Removal.jpg "Click to enlarge")
-</center>
 
-<center>
+[![Photo showing removing the O-ring with tweezers.](./assets/img/BMV080_O-Ring_Removal.jpg){ width="600"}](./assets/img/BMV080_O-Ring_Removal.jpg "Click to enlarge")
+
+
+
 [![Photo showing removing the lense cover with tweezers.](./assets/img/BMV080_Lens_Cover_Removal.jpg){ width="600"}](./assets/img/BMV080_Lens_Cover_Removal.jpg "Click to enlarge")
-</center>
+
 
 With the O-ring and lens cover removed, the assembly should look like the photo below:
 
-<center>
+
 [![Photo showing O-ring and lens cover removed next to the inner shell.](./assets/img/BMV080_Inner_Shell_Parts.jpg){ width="600"}](./assets/img/BMV080_Inner_Shell_Parts.jpg "Click to enlarge")
-</center>
+
 
 The inner shell of the enclosure has a small notch to lock the breakout board into place inside. Using either your fingertip or tweezers, gently press down on the edge of the breakout board while pressing from the other side to slide the board out from the inner shell.
 
-<center>
+
 [![Photo showing breakout board pressed down to bypass the notch in the inner enclosure.](./assets/img/BMV080_Notch_Pressed.jpg){ width="600"}](./assets/img/BMV080_Notch_Pressed.jpg "Click to enlarge")
-</center>
+
 
 Slide the sensor out from the inner shell's slot while taking care to avoid touching the BMV080 sensor and passive components on the sensor's ribbon cable. 
 
-<center>
+
 [![Photo showing the breakout board being removed from the inner enclosure.](./assets/img/BMV080_Removing_Breakout.jpg){ width="600"}](./assets/img/BMV080_Removing_Breakout.jpg "Click to enlarge")
-</center>
+
 
 Now that the breakout board is out of the enclosure we can solder to the board and adjust the solder jumpers. If using male header pins, solder the short end from the top side of the board so that you can access the longer mating pins from the bottom side. If you're soldering wires, make sure to trim the leads as short as possible to avoid obstructing the board from sliding back into the enclosure. After soldering, carefully clean the solder joints to remove any flux residue left on the board using isopropyl alcohol and a Q-tip or other gentle cleaning tool.
 
@@ -68,29 +68,29 @@ Once we're done modifying the breakout board we'll want to place the sensor back
 
 Start by sliding the BMV080 breakout board back into the inner shell until it "clicks" back into place once it is past the notch. Make sure the BMV080 sensor and the Qwiic connector align with their respective apertures in the inner shell:
 
-<center>
+
 [![Photo showing BMV080 breakout secured back into the inner shell.](./assets/img/BMV080_Breakout_Inserted.jpg){ width="600"}](./assets/img/BMV080_Breakout_Inserted.jpg "Click to enlarge")
-</center>
+
 
 Turn the enclosure over on a clean, flat surface. Using tweezers, place the lens cover over the hole where the BMV080's sensor is located. Then place the o-ring over lens cover. Ensure that the parts are in their respective square and circular slots.
 
-<center>
-[![Photo showing lens cover being placed back onto inner shell.](./assets/img/BMV080_Lens_Cover_Replacement.jpg){ width="600"}](./assets/img/BMV080_Lens_Cover_Replacement.jpg "Click to enlarge")
-</center>
 
-<center>
+[![Photo showing lens cover being placed back onto inner shell.](./assets/img/BMV080_Lens_Cover_Replacement.jpg){ width="600"}](./assets/img/BMV080_Lens_Cover_Replacement.jpg "Click to enlarge")
+
+
+
 [![Photo showing o-ring being placed back onto inner shell.](./assets/img/BMV080_O-Ring_Replacement.jpg){ width="600"}](./assets/img/BMV080_O-Ring_Replacement.jpg "Click to enlarge")
-</center>
+
 
 Now take the outer shell and place it back onto the inner shell making sure to align the apertures for the BMV080 and Qwiic connectors. Push down until you hear the tabs pop in.
 
-<center>
-[![Photo showing outer shell being placed back on top of inner shell](./assets/img/BMV080_Replacing_Top_Shell.jpg){ width="600"}](./assets/img/BMV080_Replacing_Top_Shell.jpg "Click to enlarge")
-</center>
 
-<center>
+[![Photo showing outer shell being placed back on top of inner shell](./assets/img/BMV080_Replacing_Top_Shell.jpg){ width="600"}](./assets/img/BMV080_Replacing_Top_Shell.jpg "Click to enlarge")
+
+
+
 [![Photo showing pressing down to secure outer and inner shell together.](./assets/img/BMV080_Securing_Outer_Shell.jpg){ width="600"}](./assets/img/BMV080_Securing_Outer_Shell.jpg "Click to enlarge")
-</center>
+
 
 
 
@@ -228,6 +228,5 @@ The following tables shows the connection that is required between between an ES
     </table>
 </div>
 
-<center>
+
 [![Photo of SPI assembly with IoT RedBoard - ESP32](./assets/img/BMV080_SPI_Assembly.jpg){ width="600"}](./assets/img/BMV080_SPI_Assembly.jpg "Click to enlarge")
-</center>
